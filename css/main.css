@@ -71,7 +71,7 @@ hr{
     text-transform: uppercase;
 }
 
-a:hover{
+.nav a:hover{
     color: red;
 }
 .nav-list{
@@ -109,10 +109,10 @@ main, .in-main{
     margin-right: 30px;
 }
 
-.message,
-.setting,
-.research,
-.computer{
+#message,
+#setting,
+#research,
+#computer{
     margin: 5px;
     padding: 20px;
     text-align: center;
@@ -233,11 +233,6 @@ main, .in-main{
 }
 
 /*----- Service -----*/
-.service{
-    width: 100%;
-    height: 250px;
-}
-
 .service1{
     display: flex;
 }
@@ -247,19 +242,24 @@ main, .in-main{
     width: 50%;
     height: 50%;
 }
-.graphic,
-.mobile,
-.develop,
-.design{
+
+#amazon,
+#lenovo,
+#google,
+#alphabet{
     display: flex;
-    margin-left: 95px;
+    margin-left: 33%;
 }
-.g, .m, .d, .dv{
-    border-radius: 50%;
-    padding: 10px;
-    width: 40px;
-    height: 40px;
-    margin-left: 150px;
+
+.client{
+    margin: 10px;
+    width: 200px;
+    height: 50px;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 20px;
+    background: rgb(41, 198, 219);
 }
 
 /*-----Contact-----*/
