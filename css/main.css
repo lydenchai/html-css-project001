@@ -23,22 +23,6 @@ hr{
     color: #ffff;
 }
 
-#apple{
-    color: rgb(41, 198, 219);
-}
-
-#facebook{
-    color: rgb(49, 93, 236);
-}
-
-#linux{
-    color: rgb(219, 41, 41);
-}
-
-#wordpress{
-    color: rgb(7, 7, 7);
-}
-
 /*----- navigation bar style -----*/
 .container-nav {
     width: 80%;
@@ -156,19 +140,35 @@ main, .in-main{
     justify-content: center;
     background: rgb(41, 198, 219);
 }
-#btn-apple-color{
+#html{
+    color: rgb(41, 198, 219);
+}
+
+#python{
+    color: rgb(49, 93, 236);
+}
+
+#java{
+    color: rgb(219, 41, 41);
+}
+
+#javascript{
+    color: rgb(7, 7, 7);
+}
+
+#btn-html-color{
     background:rgb(41, 198, 219);
 }
 
-#btn-facebook-color{
+#btn-python-color{
     background:rgb(49, 93, 236);
 }
 
-#btn-linux-color{
+#btn-java-color{
     background:rgb(219, 41, 41);
 }
 
-#btn-wordpress-color{
+#btn-javascript-color{
     background:rgb(7, 7, 7);
 }
 
