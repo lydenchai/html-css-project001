@@ -55,9 +55,6 @@ hr{
     text-transform: uppercase;
 }
 
-.nav a:hover{
-    color: red;
-}
 .nav-list{
     margin-top: 45px;
 }
@@ -86,9 +83,9 @@ main, .in-main{
 /*----- page -----*/
 .page{
     width: auto;
-    height: 400px;
+    height: 470px;
     display: flex;
-    margin-top: 20px;
+    margin-top: 40px;
     margin-left: 30px;
     margin-right: 30px;
 }
