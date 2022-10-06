@@ -1,202 +1,245 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="/css/hover.css">
-        <link rel="stylesheet" href="/css/main.css">
-        <link rel="stylesheet" href="/css/responsive.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <title>IDEN IT</title>
-    </head>
-    <body>
-        <!--- Header --->
-        <header id="home">
-            <!--- Navigation bar --->
-            <nav class="navbar">
-                <div class="container-nav">
-                    <div class="brand">
-                        <a class="nav-brand" href="index.html"><img src="/image/iden-logo-png-transparent.png" alt=""></a>
-                    </div>
-                    <ul class="nav">
-                        <li class="nav-list"><a class="nav-link" href="#home">home</a></li>
-                        <li class="nav-list"><a class="nav-link" href="#about">about</a></li>
-                        <li class="nav-list"><a class="nav-link" href="#what-i-do">what i do</a></li>
-                        <li class="nav-list"><a class="nav-link" href="#service">service</a></li>
-                        <li class="nav-list"><a class="nav-link" href="#contact">contact</a></li>
-                    </ul>
-                </div>
-            </nav>
-            <hr>
-            <!--- End Navigation --->
-            <!--- Main --->
-            <main>
-                <div  class="in-main">
-                    <div id="welcome">
-                        <img src="/image/welcome.png" alt="">
-                    </div>
-                    <div id="text">
-                        <h1 style="text-align: center;">Welcome to my website</h1>
-                    <p style="color: rgb(252, 249, 249); text-align: center;">What is a Software Engineer and How to Become a Software Engineer</p>
-                    </div>
-                </div>
-            </main>
-            <!--- End Main --->
-        </header>
-        <!--- End Header --->
-        <!--- Body Content --->
-        <div class="body-content">
-            <!--- Free --->
-            <div class="free">
-                <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style/hover.css">
+    <link rel="stylesheet" href="/style/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>IDEN</title>
+</head>
+
+<body>
+    <div id="home">
+        <nav class="navbar">
+            <div class="logo">
+                <img src="/image/iden-logo-png-transparent.png" height="80" style="cursor: pointer;">
             </div>
-            <!--- End Free --->
-            <!--- Feature --->
-            <div class="page" id="about">
-                <div  id="research">
-                    <img src="/image/search.png" alt="" class="hvr-bob">
-                    <h3>Research</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde quas cumque esse rerum velit praesentium aliquid iste accusamus, ab modi. Quibusdam deleniti a, eum tempore debitis explicabo quod accusamus id.</p>
-                </div>
-                <div id="computer">
-                    <img src="/image/img_550901.png" alt="" class="hvr-bob">
-                    <h3>Fully Costomizable</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde quas cumque esse rerum velit praesentium aliquid iste accusamus, ab modi. Quibusdam deleniti a, eum tempore debitis explicabo quod accusamus id.</p>
-                </div>
-                <div id="message">
-                    <img src="/image/img_328443.png" alt="" class="hvr-bob">
-                    <h3>Coordination</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde quas cumque esse rerum velit praesentium aliquid iste accusamus, ab modi. Quibusdam deleniti a, eum tempore debitis explicabo quod accusamus id.</p>
-                </div>
-                <div id="setting">
-                    <img src="/image/logo.png" alt="" class="hvr-bob">
-                    <h3>Test</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde quas cumque esse rerum velit praesentium aliquid iste accusamus, ab modi. Quibusdam deleniti a, eum tempore debitis explicabo quod accusamus id.</p>
-                </div>
+            <span class="example-spacer"></span>
+            <ul class="topnav" id="myTopnav">
+                <li class="nav-list"><a class="nav-link" href="#home">home</a></li>
+                <li class="nav-list"><a class="nav-link" href="#about">about</a></li>
+                <li class="nav-list"><a class="nav-link" href="#what-i-do">what i do</a></li>
+                <li class="nav-list"><a class="nav-link" href="#service">service</a></li>
+                <li class="nav-list"><a class="nav-link" href="#contact">contact</a></li>
+                <li>
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                        <i class="fa fa-bars"></i>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <hr style="color: #ffff; margin: 0 10% 0 10%;">
+        <div class="in-main">
+            <div id="welcome">
+                <img class="img" src="/image/welcome.png" alt="">
             </div>
-            <!--- End Feature --->
-            <!--- Box --->
-            <div id="box">
-                <div class="show">
-                    <h2 id="white">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2><br>
-                </div>
-                <div class="box-list" >
-                    <div id="box1" class="hvr-grow">
-                        <h2 id="html">HTML/CSS</h2>
-                        <p>Card subtitle<br>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <button type="button" class="btn" id="btn-html-color" >HTML/CSS</button>
-                    </div>
-                    <div id="box1" class="hvr-grow">
-                        <h2 id="python">PYTHON</h2>
-                        <p>Card subtitle<br>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <button type="button" class="btn" id="btn-python-color" >PYTHON</button>
-                    </div> 
-                    <div id="box1" class="hvr-grow">
-                        <h2 id="java">JAVA</h2>
-                        <p>Card subtitle<br>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <button type="button" class="btn" id="btn-java-color" >JAVA</button>
-                    </div>
-                    <div id="box1" class="hvr-grow">
-                        <h2 id="javascript">JAVASCRIPT</h2>
-                        <p>Card subtitle<br>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <button type="button" class="btn" id="btn-javascript-color" >JAVASCRIPT</button>
-                    </div>
-                </div>
+            <div id="text">
+                <h1>Welcome to my website</h1>
+                <h3>What is a Software Engineer and How to Become a
+                    <span style="border-bottom: 5px solid red;">Software Engineer</span>
+                </h3>
             </div>
-            <!--- End Box --->
-            <!--- What ID Do --->
-            <div class="it-do" id="what-i-do">
-                <div cl="it-do-text">
-                    <p>A software engineer is a significant person in the current digitally-advanced space. According to various studies, the software <br>
-                        engineers market has risen over the past years and is not wane. Unsurprisingly, there are droves of people who cannot define the role <br> of a software engineer. If you have a passion for software engineering, then you <br>
-                        are in the right place. This article takes you through a software engineer's role and how to become a computer <br>
-                        software engineer. <br><br>
-                    What Does a Software Engineer Do <br>
-                    The software engineering profession is wide and hence software engineers cannot <br>
-                    be simply defined by software building alone. Software engineers offer different <br>
-                    sets of services ranging from collaborating with other professionals to build, <br>
-                    maintaining network security, working with software users to determine their needs. <br>
-                    They also develop and test systems or applications, document systems or applications <br>
-                    for easy future maintenance, and create customer-tailored web pages.
-                </div>
-                <div class="it-do-service">
-                    <img src="/image/coding.jpeg" alt="" class="hvr-buzz out">
-                </div>
-            </div>
-            <!--- End What IT Do --->
-            <!--- video --->
-            <div class="video-box">
-                <div id="video">
-                    <video width="330" height="250" style="outline: none;" controls>
-                        <source src="/video/A day in the life of a Google Software Engineer _ Work-from-home Edition.mp4" type="video/mp4">
-                    </video>
-                </div>
-                <div id="video-text">
-                    <h3 style="color: #ffff;">What Are You Waiting For? <br>Start It Today!</h3>
-                    <p style="color: rgb(179, 176, 176);">Lorem ipsum dolor sit amet consectetur adipisicing elit. A molestiae ab id! Incidunt <br> mollitia in ut cumque beatae? Aut minus laborum animi placeat quae aliquam inventore <br> odio repellendus dolorum iste.</p>
-                    <button type="button" id="find" class="hvr-grow" >FIND OUT MORE</button>
-                </div>
-            </div>
-            <!--- End Video --->
-            <!--- Service --->
-            <h1 style="color: black; margin-left: 50px;">CLIENT</h1>
-            <div id="service">
-                <div class="service1">
-                    <div class="left">
-                        <div id="amazon" class="hvr-float">
-                            <button type="button" class="client" >Amazon</button>
-                        </div>
-                        <p style="text-align: center;">Mauris magna sapien,<br> pharetra consectetur fringilla vitae, interdum sed tortor.</p>
-                        <div id="lenovo" class="hvr-float">
-                            <button type="button" class="client" >Lenovo</button>
-                        </div>
-                        <p style="text-align: center;">Mauris magna sapien,<br> pharetra consectetur fringilla vitae, interdum sed tortor.</p>
-                    </div>
-                    <div class="right">
-                        <div id="google" class="hvr-float">
-                            <button type="button" class="client" >Google</button>
-                        </div>
-                        <p style="text-align: center;">Mauris magna sapien,<br> pharetra consectetur fringilla vitae, interdum sed tortor.</p>
-                        <div id="alphabet" class="hvr-float">
-                            <button type="button" class="client" >Alphabet</button>
-                        </div>
-                        <p style="text-align: center;">Mauris magna sapien,<br> pharetra consectetur fringilla vitae, interdum sed tortor.</p>
-                    </div>
-                </div>
-            </div>
-            <!--- End Service --->
-            <!--- Contact --->
-            <div class="in-contact" id="contact">
-                <div id="all-in-contact">
-                    <div id="about-us">
-                        <h3 style="color: #ffff;">About us </h3>
-                        <p style="color: rgb(179, 176, 176);">Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br> Dolor nihil neque illo laudantium assumenda, non, corrupti <br> quidem error delectus atque eligendi debitis praesentium excepturi <br> enim libero veritatis doloribus impedit facilis?</p>
-                    </div>
-                    <div id="get-in-touch">
-                        <h3 style="color: #ffff;">Get in Touch</h3>
-                        <p style="color: rgb(179, 176, 176);">Address: Phnom Penh, Cambodia</p>
-                        <p style="color: rgb(179, 176, 176);">Phone: 097 400 6649</p>
-                        <p style="color: rgb(179, 176, 176);">Email: lyeden999@gmail.com</p>
-                    </div>
-                    <div id="social-media">
-                        <h3 style="color: #ffff;">Social Media</h3>
-                        <p style="color: rgb(179, 176, 176);">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus, <br> hic. Asperiores eaque iste illum eligendi,sed, nam odit et, <br> vitae accusantium ratione ducimus accusamus veritatis <br> odio aliquid nemo? Possimus, quisquam.</p>
-                        <div class="social">
-                            <a href="https://web.facebook.com/?_rdc=1&_rdr" target="blank"><i class="fa fa-facebook-square"></i></a>
-                            <a href="https://www.instagram.com/accounts/login/" target="blank"><i class="fa fa-instagram"></i></a>
-                            <a href="https://ads.twitter.com/login" target="blank"><i class="fa fa-youtube"></i></a>
-                            <a href="https://www.pinterest.com/login/" target="blank"><i class="fa fa-pinterest"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--- End Contact --->
         </div>
-        <!--- End Body Content --->
-        <!--- Footer --->
-        <footer>
-            ©Copyright designed by Lyden
-        </footer>
-        <!--- End Footer --->
-    </body>
+    </div>
+    <div class="body-content">
+        <div class="page" id="about">
+            <div id="research">
+                <img src="/image/search.png" alt="" class="hvr-bob">
+                <h3>Research</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde quas cumque esse rerum velit
+                    praesentium aliquid iste accusamus, ab modi. Quibusdam deleniti a, eum tempore debitis explicabo
+                    quod accusamus id.</p>
+            </div>
+            <div id="computer">
+                <img src="/image/img_550901.png" alt="" class="hvr-bob">
+                <h3>Fully Costomizable</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde quas cumque esse rerum velit
+                    praesentium aliquid iste accusamus, ab modi. Quibusdam deleniti a, eum tempore debitis explicabo
+                    quod accusamus id.</p>
+            </div>
+            <div id="message">
+                <img src="/image/img_328443.png" alt="" class="hvr-bob">
+                <h3>Coordination</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde quas cumque esse rerum velit
+                    praesentium aliquid iste accusamus, ab modi. Quibusdam deleniti a, eum tempore debitis explicabo
+                    quod accusamus id.</p>
+            </div>
+            <div id="setting">
+                <img src="/image/logo.png" alt="" class="hvr-bob">
+                <h3>Test</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde quas cumque esse rerum velit
+                    praesentium aliquid iste accusamus, ab modi. Quibusdam deleniti a, eum tempore debitis explicabo
+                    quod accusamus id.</p>
+            </div>
+        </div>
+        <div id="box">
+            <div class="show">
+                <h2 style="color: #ffff;">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
+            </div>
+            <div class="box-list">
+                <div id="box1" class="hvr-grow">
+                    <h2 style="color: rgb(252, 153, 40);">HTML/CSS</h2>
+                    <p>Card subtitle<br>Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                    <button type="button" class="btn" style="background: rgb(252, 153, 40);">HTML/CSS</button>
+                </div>
+                <div id="box1" class="hvr-grow">
+                    <h2 style="color: rgb(49, 177, 236);">PYTHON</h2>
+                    <p>Card subtitle<br>Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                    <button type="button" class="btn" style="background: rgb(49, 177, 236);">PYTHON</button>
+                </div>
+                <div id="box1" class="hvr-grow">
+                    <h2 style="color: rgb(52, 144, 231);">JAVA</h2>
+                    <p>Card subtitle<br>Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                    <button type="button" class="btn" style="background: rgb(52, 144, 231);">JAVA</button>
+                </div>
+                <div id="box1" class="hvr-grow">
+                    <h2 style="color: rgb(245, 196, 34);">JAVASCRIPT</h2>
+                    <p>Card subtitle<br>Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                    <button type="button" class="btn" style="background: rgb(245, 196, 34);">JAVASCRIPT</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="it-do" id="what-i-do">
+            <div class="it-do-text">
+                <p>
+                    A software engineer is a significant person in the current digitally-advanced space. According to
+                    various studies, the software
+                    engineers market has risen over the past years and is not wane. Unsurprisingly, there are droves of
+                    people who cannot define the role of a software engineer. If you have a passion for software
+                    engineering, then you
+                    are in the right place. This article takes you through a software engineer's role and how to become
+                    a computer
+                    software engineer. <br><br>
+                    What Does a Software Engineer Do ?<br>
+                    The software engineering profession is wide and hence software engineers cannot
+                    be simply defined by software building alone. Software engineers offer different
+                    sets of services ranging from collaborating with other professionals to build,
+                    maintaining network security, working with software users to determine their needs.
+                    They also develop and test systems or applications, document systems or applications
+                    for easy future maintenance, and create customer-tailored web pages.
+            </div>
+            <div class="it-do-service">
+                <img src="/image/coding.jpeg" alt="" class="hvr-buzz out">
+            </div>
+        </div>
+
+        <div class="video-box">
+            <div id="video">
+                <video width="400" height="250" style="outline: none;" controls>
+                    <source src="/video/A day in the life of a Google Software Engineer _ Work-from-home Edition.mp4"
+                        type="video/mp4">
+                </video>
+            </div>
+            <div id="video-text">
+                <h3 style="color: #ffff;">
+                    What Are You Waiting For?
+                    <br />
+                    Start It Today!
+                </h3>
+                <p style="color: rgb(179, 176, 176);">Lorem ipsum dolor sit amet consectetur adipisicing elit. A
+                    molestiae ab id! Incidunt <br /> mollitia in ut cumque beatae? Aut minus laborum animi placeat quae
+                    aliquam inventore <br /> odio repellendus dolorum iste.</p>
+                <button type="button" id="find" class="hvr-grow">FIND OUT MORE</button>
+            </div>
+        </div>
+        <div id="service">
+            <h1 class="titile">CLIENT</h1>
+            <div class="service1">
+                <div class="left">
+                    <div id="amazon">
+                        <button type="button" class="hvr-float" id="client">Amazon</button>
+                        <p style="text-align: center;">
+                            Mauris magna sapien,<br /> pharetra consectetur fringilla vitae,
+                            interdum sed tortor.
+                        </p>
+                    </div>
+                    <div id="lenovo">
+                        <button type="button" class="hvr-float" id="client">Lenovo</button>
+                        <p style="text-align: center;">
+                            Mauris magna sapien,<br /> pharetra consectetur fringilla vitae,
+                            interdum sed tortor.
+                        </p>
+                    </div>
+                </div>
+                <div class="right">
+                    <div id="google">
+                        <button type="button" class="hvr-float" id="client">Google</button>
+                        <p style="text-align: center;">
+                            Mauris magna sapien,<br /> pharetra consectetur fringilla vitae,
+                            interdum sed tortor.
+                        </p>
+                    </div>
+                    <div id="alphabet">
+                        <button type="button" class="hvr-float" id="client">Alphabet</button>
+                        <p style="text-align: center;">
+                            Mauris magna sapien,<br /> pharetra consectetur fringilla vitae,
+                            interdum sed tortor.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="in-contact" id="contact">
+            <div id="all-in-contact">
+                <div id="about-us">
+                    <h3 style="color: #ffff;">About us </h3>
+                    <p style="color: rgb(179, 176, 176);">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        <br />
+                        Dolor nihil neque illo laudantium assumenda, non, corrupti quidem error delectus atque
+                        eligendi debitis praesentium excepturi enim libero veritatis doloribus impedit facilis?
+                    </p>
+                </div>
+                <div id="get-in-touch">
+                    <h3 style="color: #ffff;">Get in Touch</h3>
+                    <p style="color: rgb(179, 176, 176);">Address: Phnom Penh, Cambodia</p>
+                    <p style="color: rgb(179, 176, 176);">Phone: 070 645 336</p>
+                    <p style="color: rgb(179, 176, 176);">Email: lyden.chai@gmail.com</p>
+                </div>
+                <div id="social-media">
+                    <h3 style="color: #ffff;">Social Media</h3>
+                    <p style="color: rgb(179, 176, 176);">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                        Delectus, hic. Asperiores eaque iste illum eligendi,sed, nam odit et, vitae
+                        accusantium ratione ducimus accusamus veritatis odio aliquid nemo? Possimus, quisquam.
+                    </p>
+                    <div class="social">
+                        <a href="https://web.facebook.com/?_rdc=1&_rdr">
+                            <i class="fa fa-facebook-square"></i>
+                        </a>
+                        <a href="https://www.instagram.com/accounts/login/">
+                            <i class="fa fa-instagram"></i>
+                        </a>
+                        <a href="https://ads.twitter.com/login">
+                            <i class="fa fa-youtube"></i>
+                        </a>
+                        <a href="https://www.pinterest.com/login/">
+                            <i class="fa fa-pinterest"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        ©Copyright designed by Lyden
+    </footer>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+</body>
+
 </html>
