@@ -5,6 +5,7 @@ body {
     overflow-x: hidden;
     height: auto;
     width: 100%;
+    background: #fff;
 }
 
 ::-webkit-scrollbar {
@@ -322,18 +323,18 @@ footer {
         width: 90%;
     }
 
-    .it-do {
+    .it-does {
         height: auto;
         flex-direction: column;
         text-align: justify;
     }
 
-    .it-do-text {
+    .text-about-it {
         margin: 23px;
         width: 90%;
     }
 
-    .it-do-service {
+    .id-service {
         margin: 15px;
         width: 90%;
     }
